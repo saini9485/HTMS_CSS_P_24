@@ -7,13 +7,37 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <style>
-
-    h1{
-        color: red;
+    .container{
+        border: 2px solid black;
+        position: relative;
     }
+    .box{
+        width: 100px;
+        height: 100px;
+    }
+.first{
+background-color: red;
+position: relative;
+z-index: -1;
+top: 10px;
+}
+.second{
+background-color:blue;
+}
+.third{
+background-color: yellow;
+}
+.fourth{
+background-color: brown;
+}
 </style>
 <body>
-    <h1 style= "color:blue" >hi Rajesh saini how are you </h1>
+    <div class="container"> </div>
+    <div class="first box">1</div>
+    <div class="second box">2</div>
+    <div class="third box">3</div>
+    <div class="fourth box">4</div>
+    <!-- <h1 style= "color:blue" >hi Rajesh saini how are you </h1> -->
     <p class="p1" id="d1">hi raj how are you </p>
 </body>
 </html>
